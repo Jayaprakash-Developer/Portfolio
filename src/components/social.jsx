@@ -29,7 +29,7 @@ const social = () => {
       id: 3,
       child: (
         <>
-          EMail <HiOutlineMail size={30} />
+          Email <HiOutlineMail size={30} />
         </>
       ),
       href: "",
@@ -48,8 +48,7 @@ const social = () => {
   ];
 
   return (
-    <>
-      <div className=" flex flex-col top-[35%] left-0 fixed">
+      <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed">
         <ul>
           {links.map(({id, child, href, style, download}) => (
             <li
@@ -73,7 +72,6 @@ const social = () => {
           ))}
         </ul>
       </div>
-    </>
   );
 };
 
