@@ -57,7 +57,7 @@ function nav() {
       </div>
 
       {isShow && (
-        <ul className=" flex flex-col items-center justify-center w-full h-screen absolute top-0 left-0 bg-gradient-to-t from-blue-600 to-blue-900">
+        <ul className=" flex flex-col items-center justify-center w-full h-screen absolute top-0 left-0 bg-gradient-to-b from-[#081b29] to-[#05121a]">
           {link.map(({ id, link }) => (
             <li
               key={id}

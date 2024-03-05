@@ -26,7 +26,9 @@ export default {
       }
     },
     fontFamily: {
-      jp: ["Great Vibes"]
+      jp: ["Great Vibes"],
+      jpr: ["MuseoModerno"],
+      rjp: ['sans-serif']
     },
   },
   plugins: [],

@@ -52,12 +52,12 @@ const experience = () => {
       title: "React",
       style: "shadow-[#00d9ff]",
     },
-    {
-      id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-500",
-    },
+    // {
+    //   id: 8,
+    //   src: github,
+    //   title: "GitHub",
+    //   style: "shadow-gray-500",
+    // },
   ];
 
   return (

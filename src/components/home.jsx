@@ -15,22 +15,22 @@ const home = () => {
             Jayaprakash <span className=" text-[#00abf0]">R</span>
           </h1>
           <h2 className=" text-3xl sm:text-7xl font-bold text-gray-600">
-            I'm a Full Stack Developer
+            I'm a BackEnd Developer
           </h2>
           <p className=" text-gray-500 py-4 max-w-md">
             I am Fresher to building and desgining software. Currently, I love
-            to work on web application using tecknologies like Reactjs,
-            Tailwindcss, Nodejs and Expressjs.
+            to work on web application using tecknologies like Nodejs,
+            Expressjs, Reactjs and Tailwindcss.
           </p>
 
           <div>
             <Link
-              to="Skills"
+              to="contact"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
-              Skills
+              Contact
               <span className=" group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardDoubleArrowRight
                   size={25}
