@@ -24,9 +24,9 @@ const experience = () => {
     },
     {
       id: 3,
-      src: Tailwindcss,
-      title: "TaiwindCSS",
-      style: "shadow-[#42a9b4]",
+      src: node,
+      title: "NodeJS",
+      style: "shadow-green-400",
     },
     {
       id: 4,
@@ -36,10 +36,10 @@ const experience = () => {
     },
     {
       id: 5,
-      src: node,
-      title: "NodeJS",
-      style: "shadow-green-400",
-    },
+      src: Tailwindcss,
+      title: "TaiwindCSS",
+      style: "shadow-[#42a9b4] ",
+    },    
     {
       id: 6,
       src: python,

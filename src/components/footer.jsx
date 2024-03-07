@@ -16,8 +16,8 @@ const footer = () => {
       <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 p-20 gap-48 text-[16px]">
         <div className=" flex flex-col ">
           <h2 className=" text-3xl font-bold text-pink-600 pb-8 capitalize ">Footer</h2>
-          <p className=" text-xl text-gray-500"> <span className=" text-3xl text-[#00abf0]">F</span>irst, solve the problem. Then, write the code.</p>
-          <p className=" text-end text-lg text-[#00abf0]">-John Johnson</p>
+          <p className=" text-xl text-gray-500"> <span className=" text-3xl text-[#00abf0] font-jp">F</span>irst, solve the problem. Then, write the code.</p>
+          <p className=" text-end text-lg text-[#00abf0] font-jpr">-John Johnson</p>
         </div>
         <div className=" flex flex-col">
           <ul>

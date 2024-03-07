@@ -4,7 +4,7 @@ const about = () => {
   return (
     <div
       name="about"
-      className=" w-full h-screen bg-gradient-to-b from-[#081b29] to-[#05121a] text-white container mx-auto px-4"
+      className=" w-full h-screen bg-gradient-to-b from-[#081b29] to-[#05121a] text-white mx-auto px-4"
     >
       <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className=" pb-8">
@@ -26,6 +26,7 @@ const about = () => {
               </span>
             </p>
           </div>
+
           <div className=" pl-60 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[188px] before:top-[6px]">
             <h3 className=" absolute left-16 top-[1px] text-lg font-semibold ">
               2019-2022
@@ -38,6 +39,7 @@ const about = () => {
               </span>
             </p>
           </div>
+
           <div className=" pl-60 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[188px] before:top-[6px]">
             <h3 className=" absolute left-16 top-[1px] text-lg font-semibold ">
               2018-2019
@@ -49,15 +51,39 @@ const about = () => {
               </span>
             </p>
           </div>
+
           <div className=" pl-60 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[188px] before:top-[6px]">
             <h3 className=" absolute left-16 top-[1px] text-lg font-semibold ">
-              2018-2019
+              2016-2017
             </h3>
             <p className=" font-medium text-lg">
               Government Boys Higher Secondary School Kallakurichi.{" "}
               <span className=" text-base font-light text-pink-500">
                 (84% out of 100)
               </span>
+            </p>
+          </div>
+
+          <div className=" pl-60 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[188px] before:top-[6px]">
+            <h3 className=" absolute left-16 top-[1px] text-lg font-semibold ">
+              2021-2022
+            </h3>
+            <p className=" font-medium text-lg">
+              <span className=" text-bold text-xl font-bold text-pink-600">
+                {" "}
+                Rotaract Club of Jamal Mohamed College
+              </span>{" "}
+              - Joint Secretary in Rotaract Club of Jamal Mohamed College
+            </p>
+          </div>
+
+          <div className=" pl-60 mt-12 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[188px] before:top-[6px]">
+            <p className=" font-medium text-lg">
+              <span className=" text-bold text-xl font-bold text-pink-600">
+                {" "}
+                Hacker Rank Achievement
+              </span>{" "}
+              - Achieved 3 star in python and Certified from HackerRank.
             </p>
           </div>
         </div>
