@@ -32,7 +32,7 @@ const social = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "",
+      href: "mailto:ramesh22prakash@gmail.com",
     },
     {
       id: 4,
